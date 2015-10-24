@@ -1,8 +1,3 @@
-body {
-  background-color: black;
-}
-
-.page {
-  background-color: white;
-  margin-left: 5em;
+.navbar-right ul{
+	margin-right: 2% !important; 
 }
