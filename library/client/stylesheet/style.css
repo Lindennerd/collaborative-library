@@ -1,3 +1,9 @@
 .navbar-right ul{
 	margin-right: 2% !important; 
 }
+
+.newbook{
+	border-bottom: 1px solid #eee;
+	margin-bottom: 3%;
+	padding: 1%;
+}

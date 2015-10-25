@@ -1,3 +1,5 @@
 <template name="home">
-	this is the home
+	{{#each books}}
+		{{> book}}	
+	{{/each}}
 </template>
