@@ -4,7 +4,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
-  	<div class="container">
+  	<div class="container page">
   		<div class="page-header text-center">
   		  <h2>
   		    Collaborative Library
@@ -12,7 +12,9 @@
   		  </h2>
   		</div>
   		{{> navbar}}
-      {{> newBook}}
+      {{#if currentUser}}
+        {{> newBook}}
+      {{/ if }}
     	{{> yield}}
   	</div>
 </template>
